@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Section Styling */
+#about-me {
+  padding: 4rem 1rem;
+}
+.know-me {
+    background-image: url('background1.jpg'); /* Replace with your image name */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: makes it look parallax */
+    color: #ffffff;
+    padding: 80px 20px;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Optional: Overlay to make text readable */
+.know-me::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 0;
+}
+
+.know-me .container {
+    position: relative;
+    z-index: 1;
+}
+
+
+.about-container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  color: #00f7ff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Card Grid */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+/* Individual Cards */
+.card {
+  background-color: #1f1f2e;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  color: #00f7ff;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #cccccc;
+  line-height: 1.6;
+}

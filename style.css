@@ -1,0 +1,162 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Me Section */
+#about {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+#about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.buttons ol {
+    list-style: none;
+    padding: 0;
+}
+
+.buttons li {
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px 0;
+    background-color: #f1f1f1;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+#skills li {
+    margin: 10px 0;
+}
+
+/* Education Section */
+#education {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+#education p {
+    font-size: 18px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+    background-color: #f1f1f1;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

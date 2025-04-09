@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="Shekhar Singh - IT Student">
+    <meta property="og:description" content="Personal website of an IT student">
+    <meta property="og:image" content="path_to_image.jpg">
+    <meta property="og:url" content="http://www.website.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shekhar Singh</title>
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Smooth Scrolling Style -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li> 
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" data-aos="fade-up">
+        <div class="container">
+            <h1>Hi, I'm Shekhar Singh</h1>
+            <p>Hi, I'm Shekhar Singh. This is my first web page, so please don’t judge too harshly! I'm excited to start my web development journey. Have a great day!</p>
+
+            <!-- Buttons -->
+            <div class="buttons" data-aos="zoom-in">
+                <a href="know-more-about-me.html" class="btn">KNOW MORE ABOUT ME</a>
+                <a href="FUTURE GOALS.html" class="btn">GOALS TO BE ACHIEVED</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" data-aos="fade-left">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development Beginner</li>
+                <li>Learning Python, HTML, Java</li>
+                <li>Database Management: MySQL</li>
+                <li>Age: 20</li>
+                <li>Gaming Enthusiast [BGMI]</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" data-aos="fade-right">
+        <div class="container">
+            <h2>Education</h2>
+            <p>Currently free and trying to learn something new every day.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="https://formsubmit.co/shekharsingh9454120058@gmail.com" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="thank-you.html">
+               <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shekhar Singh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
